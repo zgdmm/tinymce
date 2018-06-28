@@ -1,0 +1,7 @@
+export const SET_COUNT = 'SET_COUNT'
+export const SET_DISC = 'SET_DISC'
+export const SET_ISLOAD = 'SET_ISLOAD'
+export const SET_BASEDATA = 'SET_BASEDATA'
+export const SET_PROJECTBASEINFO = 'SET_PROJECTBASEINFO'
+export const SET_STEPNUMBER = 'SET_STEPNUMBER'
+

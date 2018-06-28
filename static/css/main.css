@@ -1,0 +1,248 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+nav ul {
+  list-style: none;
+}
+
+body {
+  line-height: 1;
+  font-family: PingFangSC-Regular 微软雅黑;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+
+/* 暗红色按钮 */
+
+.el-button-primary,
+.el-button-primary:hover,
+.el-button-primary:focus {
+  background: #409EFF;
+  height: 32px;
+  line-height: 32px;
+  border: 1px solid #409EFF;
+  color: #fff;
+  padding: 0px 20px;
+}
+
+.el-button--primary,
+.el-button--primary:hover,
+.el-button--primary:focus {
+  background: #409EFF;
+  height: 32px;
+  line-height: 32px;
+  border: 1px solid #409EFF;
+  color: #fff;
+  padding: 0px 20px;
+}
+
+.el-button {
+  height: 32px;
+  line-height: 32px;
+  padding: 0px 20px;
+}
+
+#allProjects.el-table th {
+  background: #F7F7F7 !important;
+}
+
+#workFlow .el-step__head:hover {
+  color: #67c23a;
+  border-color: #67c23a;
+}
+
+.el-dialog__header {
+  text-align: left;
+}
+
+#reason .el-dialog__body {
+  padding: 10px;
+}
+
+
+/*.el-pagination{
+  text-align: right;
+}*/
+
+.el-pager li.active,
+.el-pager li:hover {
+  /*color: #409EFF;*/
+}
+
+.el-table .cell {
+  text-align: left;
+}
+.el-button--small.is-round{
+  padding: 0;
+}
+.title {
+  /*border-left: 2px solid #409EFF;*/
+  text-align: left;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.ats-sale-title {
+  border-left: 2px solid #409EFF;
+  text-align: left;
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #333333;
+  line-height: 14px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+.el-main {
+    background-color: #E9EEF3;
+    color: #333;
+    /*text-align: center;*/
+    padding: 0px;
+}
+.el-menu-item.is-active {
+    color: #409EFF;
+    background: #409EFF!important;
+    color: #fff!important;
+}
+.txt-right{
+  text-align: right;
+}
+.txt-center{
+  text-align: center;
+}
+.c333{
+  color: #333;
+}
+.c666{
+  color:#666;
+}
+.c999{
+  color: #999;
+}
+.el-form--label-right{
+  width: 50%;
+}
+.el-tooltip__popper.is-dark{
+  max-width: 260px;
+}
+.el-menu-item-group__title{
+    padding: 0;
+}
+.el-icon-plus{
+  position: relative;
+  top: 80px;
+}
+.ats-sale-title{
+  cursor: pointer;
+}
+/*.el-input__inner{
+  background: none!important;
+  border-color: transparent!important;
+  color: #fff!important;
+}
+.el-input__inner:hover {
+    border-color: transparent!important;
+    background: none!important;
+        color: #fff!important;
+}*/
